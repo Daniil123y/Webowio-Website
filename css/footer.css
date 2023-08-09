@@ -1,0 +1,157 @@
+#footer-wrap {
+    height: 880px;
+    position: relative;
+    background: url(../img/Bg.png);
+    background-size: cover;
+}
+
+.footer-container {
+    max-width: 1111px;
+    height: 580px;
+    padding-top: 310px;
+    margin: 0 auto;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 452px;
+    height: 88px;
+    padding-bottom: 52px;
+}
+
+.footer-contacts__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B6C197;
+}
+
+.footer-contacts__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.footer-about {
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer-main__information {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about__info--title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.footer-about__info--title:hover {
+    color: #dddddd;
+}
+
+.footer-about__info--title:active {
+    color: #b7b7b7;
+}
+
+.footer-about__info--text {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B6C197;
+}
+
+.footer-about__info--text p {
+    transition: all 0.4s;
+}
+
+.footer-about__info--text p:hover {
+    color: #a7b77b;
+}
+
+.footer-about__info--text p:active {
+    color: #98aa64;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 210px;
+    background: #5D6544;
+}
+
+.footer-about__media {
+    width: 322px;
+}
+
+.footer-about__media--title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+
+.footer-about__media--text {
+    width: 270px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B6C197;
+    padding-bottom: 23px;
+}
+
+.footer-gmail {
+    height: 38px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.footer-img img {
+    width: 171px;
+    height: 34px;
+    margin-top: 24px;
+}
+
+.horizontal-line {
+    background: #5D6544;
+    width: 1111px;
+    height: 1px;
+}
+
+.footer-rights {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.footer-rights__img {
+    z-index: 2;
+    width: 200px;
+    height: 32px;
+}
+
+.footer-rights__faq {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B5C096;
+}
